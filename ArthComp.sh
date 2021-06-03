@@ -17,6 +17,7 @@ for i in ${compute[@]}
 do 
 	arr+=($i)
 done 
-
+echo "Result in descending order"
 printf '%s\n' "${arr[@]}" | sort -nr
-
+echo "Result in Ascending order"
+printf '%s\n' "${arr[@]}" | sort -n
