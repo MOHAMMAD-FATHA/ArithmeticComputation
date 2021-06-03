@@ -5,4 +5,6 @@ read a b c
 
 z=$((a +b*c))
 y=$((a*b+c))
-echo $z $y
+x=$((c+a/b))
+
+echo $z $y $x
